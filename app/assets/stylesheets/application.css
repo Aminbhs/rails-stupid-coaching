@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+
+ @import "navbar";
+ @import "footer";
+ @import "message-box";
+
+
+ .container {
+  text-align: center;
+  height: 80vh;
+  background-color: rgba(250, 250, 250, 1);
+
+ }
+

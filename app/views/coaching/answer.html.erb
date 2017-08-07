@@ -1,0 +1,26 @@
+<div class="container">
+
+  <h1>Coaching answer</h1>
+  <div class="message-user">
+
+    <div class="user-avatar">
+      <img src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png" alt="">
+    </div>
+    <h3> <%=  @question %> </h3>
+    <p>- You</p>
+  </div>
+
+  <div class="message-bot">
+
+    <div class="bot-avatar">
+      <img src="https://media.lolusercontent.com/api/embedly/1/image/resize?url=http%3A%2F%2Fimg11.hostingpics.net%2Fpics%2F875203fraudbothome.png&key=f0abbd34f14549f3a15cd94dd9970851&width=425" alt="">
+    </div>
+    <h3> <%= @answer %> </h3>
+    <p>- Your coach</p>
+  </div>
+
+<div> <%= link_to "Ask a new question", root_path %></div>
+</div>
+
+
+
